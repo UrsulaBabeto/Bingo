@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(13, 2, 53);
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.two-colors {
+    padding: 20px 40px;
+    margin: 0;
+    width: fit-content;
+    font-size: 90px;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(to right,
+            red 25%,
+            orange 40%,
+            yellow 50%,
+            green 65%,
+            blue 80%,
+            rgb(66, 2, 85) 83%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+span {
+    width: fit-content;
+    background-color: rgba(240, 248, 255, 0.815);
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 3px rgb(102, 101, 101);
+}
+
+p {
+    font-size: 1.4em;
+    color: rgb(0, 0, 0);
+    padding: 2px 4px;
+    margin: 0;
+}
+
+#res {
+    padding: 3px 6px;
+    font-size: 40px;
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(to right,
+            red 25%,
+            orange 40%,
+            yellow 50%,
+            green 60%,
+            blue 75%,
+            rgb(66, 2, 85) 15%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#s1 {
+    border-radius: 50%;
+}
+
+button {
+    margin: 3px;
+    font-size: 18px;
+    text-shadow: 1px 1px 2px gray;
+    border: 1px solid #FFFFFF;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+}
+
+button:hover {
+    font-size: medium;
+    left: 2px;
+}
